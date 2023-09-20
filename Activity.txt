@@ -1,0 +1,18 @@
+HTTP/1.1:
+
+Older Protocol: Standardized in 1999.
+No Multiplexing: Each resource request requires a separate connection, leading to slower loading times.
+No Header Compression: Headers sent in plain text, resulting in extra overhead.
+No Server Push: The server can't proactively send resources; it waits for client requests.
+HTTP/2:
+
+Modern Protocol: Standardized in 2015.
+Multiplexing: Multiple requests and responses on a single connection, reducing latency.
+Header Compression: Efficient compression minimizes data overhead.
+Server Push: Servers can proactively send resources, improving page loading.
+In a nutshell, HTTP/2 offers faster, more efficient web experiences, making it the preferred choice for modern websites and applications. Consider the switch for improved performance and user satisfaction.
+
+2.
+Objects and Their Internal Representation in JavaScript
+
+JavaScript's objects are versatile data structures, holding key-value pairs and even functions. They're internally managed using property descriptors and a prototype chain. Optimizations like hidden classes make property access efficient. Understanding this internal representation helps write efficient, powerful code.
